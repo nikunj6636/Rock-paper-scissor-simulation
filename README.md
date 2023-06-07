@@ -13,4 +13,6 @@ cn rn pn sn
 
 To output an FSA with the maximum number of wins against random initial state FSA.
 
-# Algorithm Implemented:
+# Logic Implemented:
+Output FSA starts with any random state, play rock, paper and scissor there and matches the possibilities of state in the set data structure.
+When definite state is known It always plays opposite to the opponent and wins the games in all rounds.
